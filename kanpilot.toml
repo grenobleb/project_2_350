@@ -1,4 +1,4 @@
-name = "Apache Dorris Research Project"
+name = "Apache Doris Research Project"
 skipFolders = [ "node_modules", ".vscode", "out", "dist", ".vscode-test" ]
 skipFiles = [ ".gitignore", "package.json" ]
 
@@ -7,8 +7,8 @@ id = "process1"
 name = "To Do"
 
   [[processes.tasks]]
-  id = "s2vtiqyo7r35kmqx408m27ig"
-  title = "Describe Installation of Apache Dorris on WSL"
+  id = "ggevmomzz91t016adrvkhdbu"
+  title = "Describe Shotcomings of The Current Version"
   description = ""
   tag = "backlog"
   linkFiles = [ ]
@@ -18,9 +18,9 @@ name = "To Do"
   linkCommits = [ ]
 
   [[processes.tasks]]
-  id = "ggevmomzz91t016adrvkhdbu"
-  title = "Describe Shotcomings of The Current Version"
-  description = ""
+  id = "nnhpo1l6bgqbv7r87ntq9lpt"
+  title = "Create Examples of How Apache Doris Is Used"
+  description = "<p></p>"
   tag = "backlog"
   linkFiles = [ ]
   dueDate = ""
@@ -44,9 +44,9 @@ name = "In Progress"
   linkCommits = [ ]
 
   [[processes.tasks]]
-  id = "nnhpo1l6bgqbv7r87ntq9lpt"
-  title = "Create Examples of How Agda Is Used"
-  description = "<p></p>"
+  id = "s2vtiqyo7r35kmqx408m27ig"
+  title = "Describe Installation of Apache Dorris on WSL"
+  description = ""
   tag = "backlog"
   linkFiles = [ ]
   dueDate = ""
