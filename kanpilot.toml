@@ -44,8 +44,8 @@ name = "In Progress"
   linkCommits = [ ]
 
   [[processes.tasks]]
-  id = "s2vtiqyo7r35kmqx408m27ig"
-  title = "Describe Installation of Apache Dorris on WSL"
+  id = "tbl2xlz45ci8lys7ydd9aw7m"
+  title = "Find out how to connect doris to MySQL"
   description = ""
   tag = "backlog"
   linkFiles = [ ]
@@ -57,17 +57,6 @@ name = "In Progress"
 [[processes]]
 id = "process3"
 name = "Done"
-
-  [[processes.tasks]]
-  id = "ueivctt2omjzho5o5zg1rwl4"
-  title = "Describe Installation Requirements"
-  description = "<p></p>"
-  tag = "backlog"
-  linkFiles = [ ]
-  dueDate = ""
-  checkList = [ ]
-  priority = ""
-  linkCommits = [ ]
 
   [[processes.tasks]]
   id = "idhuol7ylwgtvcodr3p6kbhy"
@@ -83,6 +72,28 @@ name = "Done"
   [[processes.tasks]]
   id = "dbmogzvphtwnwjbfspvijcsc"
   title = "Describe Future Plans"
+  description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "ueivctt2omjzho5o5zg1rwl4"
+  title = "Describe Installation Requirements"
+  description = "<p></p>"
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "s2vtiqyo7r35kmqx408m27ig"
+  title = "Describe Installation of Apache Dorris on WSL"
   description = ""
   tag = "backlog"
   linkFiles = [ ]
