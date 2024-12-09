@@ -1,153 +1,161 @@
-The following are plans to be implemented within the 2024 roadmap
-Source: https://github.com/apache/doris/issues/30669
+# 2024 Roadmap
+Source: [Apache Doris GitHub Issue #30669](https://github.com/apache/doris/issues/30669)
 
-----------------------------------------------------------------------------
+---
 
-Separation of Storage and Computation
--	Flexibility & Stateless
-    -	Stateless FE Node
+## Separation of Storage and Computation
 
--	Performance
-    -	Optimization for cold data querying
+- **Flexibility & Stateless**
+  - Stateless FE Node
 
--	SLA
-    -	Upgrade FE with no impact
+- **Performance**
+  - Optimization for cold data querying
 
--	Reliability
-    -	Snapshot & Time Travel
-    -	Enhanced Backup and Restore
+- **SLA**
+  - Upgrade FE with no impact
 
--	Data Sharing
+- **Reliability**
+  - Snapshot & Time Travel
+  - Enhanced Backup and Restore
 
-----------------------------------------------------------------------------
+- **Data Sharing**
 
-Async Material View
--	Build Materialized View
-    -	Support building mv from iceberg table 
-    -	Support building mv from Hudi table 
-    -	Nested materialized view with DAG 
-    -	Incremental building for external table with partition granularity
-    -	Support REPLACE operation
-    -	Support refreshed materialized view by time range
+---
 
--	Materialized view management
-    -	Materialized view recommendation
+## Async Material View
 
-----------------------------------------------------------------------------
+- **Build Materialized View**
+  - Support building MV from Iceberg table
+  - Support building MV from Hudi table
+  - Nested materialized view with DAG
+  - Incremental building for external table with partition granularity
+  - Support REPLACE operation
+  - Support refreshed materialized view by time range
 
-Query Optimizer
--	Basic Framework
-    -	Fully supports DQL, DML and DDL 
-    -	Optimized apply order of RBO rules 
-    -	Improved efficiency of Cascades enumeration
+- **Materialized View Management**
+  - Materialized view recommendation
 
-----------------------------------------------------------------------------
+---
 
-Planning Quality
--	Statistics
-    -	Support partition-level statistics collection
-    -	Supports histogram statistics collection
+## Query Optimizer
 
--	New distributed cost model 
-    -	Optimized distributed cost model framework
-    -	Support runtime cost revaluation
-    -	Supports more accurate operator cost-fitting models
+- **Basic Framework**
+  - Fully supports DQL, DML, and DDL
+  - Optimized apply order of RBO rules
+  - Improved efficiency of Cascades enumeration
 
--	Rules and enumerations 
-    -	Expand RBO rules
-    -	Improve the quality of Cascades enumeration plan
-    -	Enhanced dphyper enumeration framework function, supports outer join enumeration and CDC
+---
 
--	Supports histogram-based data skew adaptive processing framework
+## Planning Quality
 
-----------------------------------------------------------------------------
+- **Statistics**
+  - Support partition-level statistics collection
+  - Supports histogram statistics collection
 
-DataLake Analysis
--	Support more File Formats
-    -	RCFile
-    -	SequenceFile
+- **New Distributed Cost Model**
+  - Optimized distributed cost model framework
+  - Support runtime cost revaluation
+  - Supports more accurate operator cost-fitting models
 
--	Support more Lake Format
-    -	 Support more systable on Hudi 
-    -	Support CDC scan on Hudi 
-    -	Support more systable on Paimon
+- **Rules and Enumerations**
+  - Expand RBO rules
+  - Improve the quality of Cascades enumeration plan
+  - Enhanced dphyper enumeration framework function, supports outer join enumeration and CDC
 
--	Trino Connector compatibility
-    -	Support Trino DeltaLake Connector
-    -	Support Trino Cassandra Connector
+- Supports histogram-based data skew adaptive processing framework
 
--	Datalake write back
-    -	Iceberg: Support update and delete
+---
 
--	Enhanced JDBC Catalog
-    -	Support sharded database 
-    -	Support query concurrency
+## DataLake Analysis
 
--	Enhanced file analysis
-    -	Support insert into table value function
+- **Support More File Formats**
+  - RCFile
+  - SequenceFile
 
--	Enhanced file cache
-    -	Support memory-level file cache 
-    -	Enhanced cache statistic and hits analysis
+- **Support More Lake Format**
+  - Support more systable on Hudi
+  - Support CDC scan on Hudi
+  - Support more systable on Paimon
 
--	SQL dialect support
-    -	Hive
+- **Trino Connector Compatibility**
+  - Support Trino DeltaLake Connector
+  - Support Trino Cassandra Connector
 
-----------------------------------------------------------------------------
+- **Datalake Write Back**
+  - Iceberg: Support update and delete
 
-Query Processing
--	Resource Isolation
-    -	Automatically workload management at runtime
+- **Enhanced JDBC Catalog**
+  - Support sharded database
+  - Support query concurrency
 
--	Support store procedure
+- **Enhanced File Analysis**
+  - Support insert into table value function
 
--	Working with shuffle service 
+- **Enhanced File Cache**
+  - Support memory-level file cache
+  - Enhanced cache statistic and hits analysis
 
--	Stage-by-stage query processing
+- **SQL Dialect Support**
+  - Hive
 
-----------------------------------------------------------------------------
+---
 
-Storage Engine
--	Data Loading
-    -	Zero-ETL: Built-in data integration from OLTP CDC to Doris
-    -	Support MERGE INTO
+## Query Processing
 
--	Data Modeling
-    -	Support CLUSTER BY 
-    -	Support KEY column in arbitrary order
+- **Resource Isolation**
+  - Automatically workload management at runtime
 
--	Cross-cluster replication 
-    -	Support Master/Slave switch
-    -	Support cross region deployment
-    -	Work with separation of storage and computation
+- Support store procedure
 
--	Support data binlog 
+- Working with shuffle service
 
--	Enhanced Z-order index 
+- Stage-by-stage query processing
 
--	Optimized high concurrency point query
+---
 
-----------------------------------------------------------------------------
+## Storage Engine
 
-Ecosystem & Tools
--	Cluster Manager for Apache Doris 
-    -	Support agent mode
-    -	Support k8s
-    -	Enhanced monitor and alert management
-    -	Visualized profile analysis
-    -	Support Notebook
-    -	Built-in visualized BI reports
+- **Data Loading**
+  - Zero-ETL: Built-in data integration from OLTP CDC to Doris
+  - Support MERGE INTO
 
--	X2Doris
-    -	Support ClickHouse to Doris
+- **Data Modeling**
+  - Support CLUSTER BY
+  - Support KEY column in arbitrary order
 
--	BI tools compatibility 
-    -	Metabase
-    -	Navicat
-    -	Datagrip
-    -	Dbeaver
-    -	SmartBI
-    -	FineBI
+- **Cross-Cluster Replication**
+  - Support Master/Slave switch
+  - Support cross region deployment
+  - Work with separation of storage and computation
 
--	Data Integration 
-    -	Kettle
+- Support data binlog
+
+- Enhanced Z-order index
+
+- Optimized high concurrency point query
+
+---
+
+## Ecosystem & Tools
+
+- **Cluster Manager for Apache Doris**
+  - Support agent mode
+  - Support k8s
+  - Enhanced monitor and alert management
+  - Visualized profile analysis
+  - Support Notebook
+  - Built-in visualized BI reports
+
+- **X2Doris**
+  - Support ClickHouse to Doris
+
+- **BI Tools Compatibility**
+  - Metabase
+  - Navicat
+  - Datagrip
+  - Dbeaver
+  - SmartBI
+  - FineBI
+
+- **Data Integration**
+  - Kettle
