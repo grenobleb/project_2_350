@@ -7,17 +7,6 @@ id = "process1"
 name = "To Do"
 
   [[processes.tasks]]
-  id = "ggevmomzz91t016adrvkhdbu"
-  title = "Describe Shotcomings of The Current Version"
-  description = ""
-  tag = "backlog"
-  linkFiles = [ ]
-  dueDate = ""
-  checkList = [ ]
-  priority = ""
-  linkCommits = [ ]
-
-  [[processes.tasks]]
   id = "nnhpo1l6bgqbv7r87ntq9lpt"
   title = "Create Examples of How Apache Doris Is Used"
   description = "<p></p>"
@@ -94,6 +83,17 @@ name = "Done"
   [[processes.tasks]]
   id = "s2vtiqyo7r35kmqx408m27ig"
   title = "Describe Installation of Apache Dorris on WSL"
+  description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "ggevmomzz91t016adrvkhdbu"
+  title = "Describe Shotcomings of The Current Version"
   description = ""
   tag = "backlog"
   linkFiles = [ ]
