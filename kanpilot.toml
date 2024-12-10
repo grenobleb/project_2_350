@@ -22,17 +22,6 @@ id = "process2"
 name = "In Progress"
 
   [[processes.tasks]]
-  id = "pbpo7nol9cpw7eop3b3m92w4"
-  title = "Create Several Markdown Files With Research"
-  description = "<p></p>"
-  tag = "backlog"
-  linkFiles = [ ]
-  dueDate = ""
-  checkList = [ ]
-  priority = ""
-  linkCommits = [ ]
-
-  [[processes.tasks]]
   id = "tbl2xlz45ci8lys7ydd9aw7m"
   title = "Find out how to connect doris to MySQL"
   description = ""
@@ -95,6 +84,17 @@ name = "Done"
   id = "ggevmomzz91t016adrvkhdbu"
   title = "Describe Shotcomings of The Current Version"
   description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "pbpo7nol9cpw7eop3b3m92w4"
+  title = "Create Several Markdown Files With Research"
+  description = "<p></p>"
   tag = "backlog"
   linkFiles = [ ]
   dueDate = ""
