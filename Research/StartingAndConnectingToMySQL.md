@@ -57,6 +57,29 @@ sudo sysctl -w vm.max_map_count=2000000
 sudo swapoff -a
 ```
 
+# Connecting to Doris FE
+Download the [MySQL client](https://dev.mysql.com/downloads/mysql/) in order to be able to connect to Doris FE
+```
+# Extract the MySQL client
+tar xzf mysql-server_9.1.0-1ubuntu22.04_amd64.deb-bundle.tar
+```
+
+In the Linux command prompt, connect to MySQL:
+```
+mysql -uroot -P9030 -h127.0.0.1
+```
+# Add BE nodes to cluster
+When connected to MySQL, enter:
+```
+mysql> ALTER SYSTEM ADD BACKEND "127.0.0.1:9050";
+ ```
+
+ # Modify Passwords for Root and Admin
+```
+mysql> SET PASSWORD FOR 'root' = PASSWORD('doris-root-password');                                                                                                                                                                                 
+mysql> SET PASSWORD FOR 'admin' = PASSWORD('doris-admin-password');
+```
+
 # Stopping FE and BE
 ```
 ./apache-doris/fe/bin/stop_fe.sh
