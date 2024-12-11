@@ -33,9 +33,9 @@ use demo
 ```
 Verify that the userinfo_table has been created:
 ```
-show tables
+show tables;
 ```
 Print the contents of the table:
 ```
-select * from userinfo_table
+select * from userinfo_table;
 ```

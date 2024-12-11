@@ -33,9 +33,9 @@ use demo
 ```
 Verify that the characterTable has been created:
 ```
-show tables
+show tables;
 ```
 Print the contents of the table:
 ```
-select * from characterTable
+select * from characterTable;
 ```
