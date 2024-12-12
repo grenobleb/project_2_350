@@ -1,7 +1,6 @@
--- Use the demo database
+
 USE demo;
 
--- Create the user_info table
 CREATE TABLE userinfo_table (
     user_id INT NOT NULL,
     username VARCHAR(255) NOT NULL,
