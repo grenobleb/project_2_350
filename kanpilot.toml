@@ -5,32 +5,12 @@ skipFiles = [ ".gitignore", "package.json" ]
 [[processes]]
 id = "process1"
 name = "To Do"
-
-  [[processes.tasks]]
-  id = "nnhpo1l6bgqbv7r87ntq9lpt"
-  title = "Create Examples of How Apache Doris Is Used"
-  description = "<p></p>"
-  tag = "backlog"
-  linkFiles = [ ]
-  dueDate = ""
-  checkList = [ ]
-  priority = ""
-  linkCommits = [ ]
+tasks = [ ]
 
 [[processes]]
 id = "process2"
 name = "In Progress"
-
-  [[processes.tasks]]
-  id = "tbl2xlz45ci8lys7ydd9aw7m"
-  title = "Find out how to connect doris to MySQL"
-  description = ""
-  tag = "backlog"
-  linkFiles = [ ]
-  dueDate = ""
-  checkList = [ ]
-  priority = ""
-  linkCommits = [ ]
+tasks = [ ]
 
 [[processes]]
 id = "process3"
@@ -94,6 +74,28 @@ name = "Done"
   [[processes.tasks]]
   id = "pbpo7nol9cpw7eop3b3m92w4"
   title = "Create Several Markdown Files With Research"
+  description = "<p></p>"
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "tbl2xlz45ci8lys7ydd9aw7m"
+  title = "Find out how to connect doris to MySQL"
+  description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "nnhpo1l6bgqbv7r87ntq9lpt"
+  title = "Create Examples of How Apache Doris Is Used"
   description = "<p></p>"
   tag = "backlog"
   linkFiles = [ ]
